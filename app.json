@@ -1,0 +1,17 @@
+{
+  "name": "universaltodos",
+  "displayName": "universaltodos",
+  "expo": {
+    "name": "universaltodos",
+    "slug": "universaltodos",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
