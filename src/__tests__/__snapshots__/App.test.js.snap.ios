@@ -15,11 +15,13 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "borderRadius": 3,
+        "marginTop": 10,
         "overflow": "hidden",
       }
     }
   >
     <View
+      accessibilityLabel="add task"
       accessibilityRole="button"
       accessibilityState={
         Object {

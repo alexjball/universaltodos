@@ -35,12 +35,14 @@ exports[`renders correctly 1`] = `
         "borderBottomRightRadius": "3px",
         "borderTopLeftRadius": "3px",
         "borderTopRightRadius": "3px",
+        "marginTop": "10px",
         "overflowX": "hidden",
         "overflowY": "hidden",
       }
     }
   >
     <div
+      aria-label="add task"
       className="css-cursor-18t94o4 css-view-1dbjc4n"
       data-focusable={true}
       disabled={false}

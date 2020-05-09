@@ -1,0 +1,7 @@
+{
+  "globals": {
+      "$": "readonly",
+      "$$": "readonly",
+      "driver": "readonly"
+  }
+}
