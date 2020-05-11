@@ -1,133 +1,126 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="css-view-1dbjc4n"
-  style={
-    Object {
-      "WebkitAlignItems": "center",
-      "WebkitBoxAlign": "center",
-      "WebkitBoxFlex": 1,
-      "WebkitBoxPack": "center",
-      "WebkitFlexBasis": "0%",
-      "WebkitFlexGrow": 1,
-      "WebkitFlexShrink": 1,
-      "WebkitJustifyContent": "center",
-      "alignItems": "center",
-      "backgroundColor": "rgba(245,252,255,1.00)",
-      "flexBasis": "0%",
-      "flexGrow": 1,
-      "flexShrink": 1,
-      "justifyContent": "center",
-      "msFlexAlign": "center",
-      "msFlexNegative": 1,
-      "msFlexPack": "center",
-      "msFlexPositive": 1,
-      "msFlexPreferredSize": "0%",
-    }
-  }
->
-  <div
-    className="css-view-1dbjc4n"
-    style={
-      Object {
-        "borderBottomLeftRadius": "3px",
-        "borderBottomRightRadius": "3px",
-        "borderTopLeftRadius": "3px",
-        "borderTopRightRadius": "3px",
-        "marginTop": "10px",
-        "overflowX": "hidden",
-        "overflowY": "hidden",
-      }
-    }
-  >
-    <div
-      aria-label="add task"
-      className="css-cursor-18t94o4 css-view-1dbjc4n"
-      data-focusable={true}
-      disabled={false}
-      onKeyDown={[Function]}
-      onKeyPress={[Function]}
-      onKeyUp={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      role="button"
-      style={
-        Object {
-          "MozTransitionProperty": "opacity",
-          "MozUserSelect": "none",
-          "WebkitTransitionDuration": "0.15s",
-          "WebkitTransitionProperty": "opacity",
-          "WebkitUserSelect": "none",
-          "cursor": "pointer",
-          "msTouchAction": "manipulation",
-          "msUserSelect": "none",
-          "touchAction": "manipulation",
-          "transitionDuration": "0.15s",
-          "transitionProperty": "opacity",
-          "userSelect": "none",
-        }
-      }
-      tabIndex="0"
-    >
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
       <div
-        className="css-view-1dbjc4n"
-        style={
-          Object {
-            "WebkitAlignItems": "center",
-            "WebkitBoxAlign": "center",
-            "WebkitBoxDirection": "normal",
-            "WebkitBoxOrient": "horizontal",
-            "WebkitBoxPack": "center",
-            "WebkitFlexDirection": "row",
-            "WebkitJustifyContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "rgba(32,137,220,1.00)",
-            "borderBottomColor": "rgba(32,137,220,1.00)",
-            "borderBottomLeftRadius": "3px",
-            "borderBottomRightRadius": "3px",
-            "borderBottomWidth": "0px",
-            "borderLeftColor": "rgba(32,137,220,1.00)",
-            "borderLeftWidth": "0px",
-            "borderRightColor": "rgba(32,137,220,1.00)",
-            "borderRightWidth": "0px",
-            "borderTopColor": "rgba(32,137,220,1.00)",
-            "borderTopLeftRadius": "3px",
-            "borderTopRightRadius": "3px",
-            "borderTopWidth": "0px",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "msFlexAlign": "center",
-            "msFlexDirection": "row",
-            "msFlexPack": "center",
-            "paddingBottom": "8px",
-            "paddingLeft": "8px",
-            "paddingRight": "8px",
-            "paddingTop": "8px",
-          }
-        }
+        class="css-view-1dbjc4n"
+        style="align-items: center; background-color: rgb(245, 252, 255); flex-grow: 1; flex-shrink: 1; flex-basis: 0%; justify-content: center;"
       >
         <div
-          className="css-text-901oao"
-          dir="auto"
-          style={
-            Object {
-              "color": "rgba(255,255,255,1.00)",
-              "fontSize": "18px",
-              "paddingBottom": "1px",
-              "paddingTop": "2px",
-              "textAlign": "center",
-            }
-          }
+          class="css-view-1dbjc4n"
+          style="border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; margin-top: 10px; overflow-x: hidden; overflow-y: hidden;"
         >
-          Add Task
+          <div
+            aria-label="add task"
+            class="css-cursor-18t94o4 css-view-1dbjc4n"
+            data-focusable="true"
+            role="button"
+            style="cursor: pointer; transition-duration: 0.15s; transition-property: opacity; user-select: none;"
+            tabindex="0"
+          >
+            <div
+              class="css-view-1dbjc4n"
+              style="align-items: center; background-color: rgb(32, 137, 220); border-top-color: rgba(32,137,220,1.00); border-right-color: rgba(32,137,220,1.00); border-bottom-color: rgba(32,137,220,1.00); border-left-color: rgba(32,137,220,1.00); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; flex-direction: row; justify-content: center; padding: 8px 8px 8px 8px;"
+            >
+              <div
+                class="css-text-901oao"
+                dir="auto"
+                style="color: rgb(255, 255, 255); font-size: 18px; padding-bottom: 1px; padding-top: 2px; text-align: center;"
+              >
+                Add Task
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </body>,
+  "container": <div>
+    <div
+      class="css-view-1dbjc4n"
+      style="align-items: center; background-color: rgb(245, 252, 255); flex-grow: 1; flex-shrink: 1; flex-basis: 0%; justify-content: center;"
+    >
+      <div
+        class="css-view-1dbjc4n"
+        style="border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; margin-top: 10px; overflow-x: hidden; overflow-y: hidden;"
+      >
+        <div
+          aria-label="add task"
+          class="css-cursor-18t94o4 css-view-1dbjc4n"
+          data-focusable="true"
+          role="button"
+          style="cursor: pointer; transition-duration: 0.15s; transition-property: opacity; user-select: none;"
+          tabindex="0"
+        >
+          <div
+            class="css-view-1dbjc4n"
+            style="align-items: center; background-color: rgb(32, 137, 220); border-top-color: rgba(32,137,220,1.00); border-right-color: rgba(32,137,220,1.00); border-bottom-color: rgba(32,137,220,1.00); border-left-color: rgba(32,137,220,1.00); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; flex-direction: row; justify-content: center; padding: 8px 8px 8px 8px;"
+          >
+            <div
+              class="css-text-901oao"
+              dir="auto"
+              style="color: rgb(255, 255, 255); font-size: 18px; padding-bottom: 1px; padding-top: 2px; text-align: center;"
+            >
+              Add Task
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

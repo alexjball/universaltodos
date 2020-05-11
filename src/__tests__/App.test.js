@@ -1,10 +1,16 @@
 import 'react-native';
 import React from 'react';
 import App from '../App';
-
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import { render, fireEvent, wait } from '../functionalTesting';
 
 it('renders correctly', () => {
-  expect(renderer.create(<App />)).toMatchSnapshot();
+  expect(render(<App />)).toMatchSnapshot();
+});
+
+it('can add task', async () => {
+  const { getByLabelText } = render(<App />);
+
+  const addTodo = getByLabelText('add task');
+  fireEvent.press(addTodo);
+  await wait(() => expect(getByLabelText('task card')).toBeTruthy());
 });

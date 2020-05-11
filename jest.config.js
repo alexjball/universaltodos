@@ -10,13 +10,48 @@ module.exports = Object.assign(
     projects: [
       // Create a new project for each platform.
       getWebPreset(),
-      getIOSPreset(),
-      getAndroidPreset(),
+      withReactNativeTestingLibrary(getIOSPreset()),
+      withReactNativeTestingLibrary(getAndroidPreset()),
     ].map(withProjectConfig),
   })
 );
 
+function withReactNativeTestingLibrary(project) {
+  return Object.assign(project, {
+    snapshotSerializers: [
+      require.resolve(
+        '@testing-library/react-native/dist/preset/serializer.js'
+      ),
+    ],
+    setupFiles: [
+      ...project.setupFiles,
+      require.resolve('@testing-library/react-native/dist/preset/setup.js'),
+    ],
+  });
+}
+
 function withProjectConfig(project) {
-  project.testPathIgnorePatterns = ['/node_modules/', '/specs/'];
-  return project;
+  return Object.assign(project, {
+    testPathIgnorePatterns: ['/node_modules/', '/specs/'],
+    transformIgnorePatterns: [
+      'node_modules/(?!' +
+        '(jest-)?react-native' +
+        '|@react-native-community' +
+        '|expo(nent)?' +
+        '|@expo(nent)?/.*' +
+        '|react-navigation' +
+        '|@react-navigation/.*' +
+        '|@unimodules/.*' +
+        '|unimodules' +
+        '|sentry-expo' +
+        '|native-base' +
+        '|react-native-svg' +
+        '|dom-accessibility-api' +
+        ')',
+    ],
+    transform: {
+      ...project.transform,
+      '^.+\\.mjs$': 'babel-jest',
+    },
+  });
 }
