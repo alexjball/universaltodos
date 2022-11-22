@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
-    "@expo/webpack-config": "^0.12.4",
+    "@expo/webpack-config": "^0.12.82",
     "@react-native-community/eslint-config": "^1.1.0",
     "@testing-library/react": "^10.0.4",
     "@testing-library/react-native": "^5.0.3",
